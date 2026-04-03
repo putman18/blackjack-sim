@@ -229,7 +229,7 @@ def run_multi(runs, bankroll, base_bet, goal, max_bet):
 
 st.set_page_config(page_title="Blackjack Simulator", page_icon="🃏", layout="wide")
 st.title("🃏 Blackjack Martingale Simulator")
-st.caption("6-deck shoe, basic strategy, Martingale bet sizing")
+st.caption("6-deck shoe, Martingale bet sizing — get even or get even worse")
 
 with st.sidebar:
     st.header("Settings")
